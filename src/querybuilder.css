@@ -1,0 +1,118 @@
+.ruleGroup-combinators {
+    height: calc(1.5em + 0.6rem + 2px);
+    font-size: 13px;
+    padding: 0.25rem 0.5rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    display: inline-block;
+    width: auto;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+
+.ruleGroup-addGroup {
+    padding: 0.25rem 0.5rem;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    margin-left: 0.5rem;
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d00;
+    cursor: pointer;
+}
+
+.ruleGroup-addRule {
+    padding: 0.25rem 0.5rem;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    color: #fff;
+    background-color: #057091;
+    border-color: #007bff00;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.rule {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.rule-fields {
+    height: calc(1.5em + 0.5rem + 2px);
+    padding: 0.25rem 0.5rem;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    border: 1px solid #ced4da;
+    margin-right: 5px;
+    outline: none;
+}
+
+
+
+.rule-operators {
+    height: calc(1.5em + 0.6rem + 2px);
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    border: 1px solid #ced4da;
+    margin-right: 5px;
+    outline: none;
+}
+
+.rule-value {
+    height: calc(1.5em + 0.5rem + 2px);
+    padding: 0.25rem 0.5rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+.rule-remove,
+.ruleGroup-remove {
+    color: #fff;
+    background-color: #bf261b;
+    border-color: #dc354500;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.rule-cloneRule,
+.ruleGroup-cloneGroup {
+    color: #fff;
+    background-color: #f7941d;
+    border-color: #dc354500;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.ruleGroup-header{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.ruleGroup {
+    padding: 0.5rem;
+    border: 1px solid #0595b633;
+    border-radius: 4px;
+    background: #0595b633;
+}
+
+.with-bootstrap {
+    width: 100%;
+}
+.with-bootstrap .ruleGroup {
+    margin: 0;
+}
